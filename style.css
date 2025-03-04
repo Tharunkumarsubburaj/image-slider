@@ -1,0 +1,51 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.maincontainer
+{
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+    max-width: 100vw;
+    background-color: blueviolet;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.slide
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: thistle;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.slide h1
+{
+    color: blueviolet;
+    margin-bottom: 2rem;
+}
+
+.img img
+{
+    height: 25rem;
+    width: 33rem;
+    object-fit: contain;
+}
